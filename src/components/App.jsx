@@ -1,3 +1,5 @@
+import Workspace from "./Workspace/Workspace";
+
 export const App = () => {
-  return <div>React task</div>;
+  return <Workspace />;
 };
