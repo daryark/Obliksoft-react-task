@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
 
-export const Sidebar = styled.div`
-  width: 30%;
-  min-width: 70px;
-  background-color: violet;
+export const SidebarStyled = styled.div`
+	grid-area: sidebar;
+	width: 30vw;
+	min-width: 70px;
+	background-color: violet;
 `;
